@@ -1,0 +1,7 @@
+my_list = input("Enter your data: ")
+my_second_list = input("Enter your second data: ")
+my_list, my_second_list = my_list.split("*"), my_second_list.split("*")
+my_list.extend(my_second_list)
+print("-"*len(my_list)*10,"\n")
+print(f"List of you data: {my_list}")
+print("\n","-"*len(my_list)*10,sep="")
